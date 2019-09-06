@@ -1,0 +1,29 @@
+@import "../variables";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: $font-family;
+  font-size: $font-size;
+  line-height: $line-height;
+  padding: $spacing;
+}
+
+svg {
+  fill: currentColor;
+  width: 100%;
+}
+
+p {
+  margin: 0 0 $spacing;
+}

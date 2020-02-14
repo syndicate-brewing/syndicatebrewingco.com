@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Syndicate Brewing Company</title>
-    <%= stylesheet_link_tag "application", relative: true %>
+    <%= stylesheet_link_tag "application" %>
     <link rel="shortcut icon" type="image/png" href="syndicate-icon-196x196.png">
     <link rel="shortcut icon" sizes="196x196" href="syndicate-icon-196x196.png">
     <link rel="apple-touch-icon" href="syndicate-icon-196x196.png">
   </head>
-  <body>
-    <div class="content">
+  <body class="text-gray-100 bg-gray-900 border-t-4 border-gray-300">
+    <div class="p-4 max-w-3xl mx-auto md:p-8 md:pt-12">
+      <div class="text-center mx-auto mb-6 md:mb-12">
+        <% link_to "/index.html", class: "block h-40 mb-6" do %>
+          <%= icon "logo" %>
+        <% end %>
+        <p class="mb-1">Silverthorne, Colorado 80498, United States</p>
+        <p><a href="tel:303-483-8531" class="text-xl font-mono border-b-2 border-gold-300 pb-1">303-483-8531</a></p>
+      </div>
       <%= yield %>
+      <span class="text-gray-500 text-sm">&copy;2020 Syndicate Brewing Co., LLC</span>
     </div>
   </body>
 </html>

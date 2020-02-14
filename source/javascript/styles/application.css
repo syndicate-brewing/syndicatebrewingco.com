@@ -1,0 +1,6 @@
+/* purgecss start ignore */
+@import "tailwindcss/base";
+@import "./icon";
+/* purgecss end ignore */
+
+@import "tailwindcss/utilities";

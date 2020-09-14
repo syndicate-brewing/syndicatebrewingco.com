@@ -4,28 +4,32 @@
     "tag": "ipa",
     "description": "An American style IPA brewed with traditional west coast hops. Munich 10L makes up 11% of the grist giving this well balanced IPA a malty backbone without being overly sweet.",
     "abv": 6.8,
-    "image": "beers/ipa.jpg"
+    "image": "beers/ipa.jpg",
+    "image_alt": "An IPA style beer in a glass on a wooden table."
   },
   {
     "name": "Robust Porter",
     "tag": "porter",
     "description": "A stronger, more bitter version of a traditional porter. This Robust Porter has a noticeable burnt toasty bitterness that stands out due to a liberal dose of black patent malt. This helps in balancing the perceived bitterness of the aggressive hopping that is consistent with the style. Dry hopped with cascade hops for aromatic complexities.",
     "abv": 6.3,
-    "image": "beers/porter.jpg"
+    "image": "beers/porter.jpg",
+    "image_alt": "A porter style beer in a glass on a wooden table."
   },
   {
     "name": "Victory Lap Amber Ale",
     "tag": "amber",
     "description": "Woody, nutty, biscuit flavors dominate this well balanced American amber ale. The use of Victory malt gives this beer a malty complexity while allowing a slight hop presence to shine through.",
     "abv": 5.3,
-    "image": "beers/amber.jpg"
+    "image": "beers/amber.jpg",
+    "image_alt": "An amber style beer in a glass on a wooden table."
   },
   {
     "name": "Kolsch Rules Everything Around Me",
     "tag": "kolsch",
     "description": "German Hallertau hops coupled with yeast cultured from Inland Island, a Colorado company, lead to this unique Kölsch. Crisp, clean, with a fruity aroma all balance to create this easy drinking Kölsch.",
     "abv": 5,
-    "image": "beers/kolsch.jpg"
+    "image": "beers/kolsch.jpg",
+    "image_alt": "A kolsch style beer in a glass on a wooden table."
   },
   {
     "name": "Kyky SMASH Pale Ale",

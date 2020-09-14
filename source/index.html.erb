@@ -12,7 +12,7 @@
       </div>
       <% if beer["image"] %>
         <div class="flex-none max-w-xs md:w-2/6 md:-m-4 md:mr-4">
-          <%= image_tag beer["image"], class: "block w-full rounded-sm border-gray-300 border-4 md:border-t-2 md:rounded-tl-none" %>
+          <%= image_tag beer["image"], class: "block w-full rounded-sm border-gray-300 border-4 md:border-t-2 md:rounded-tl-none", alt: beer["image_alt"] %>
         </div>
       <% end %>
     </li>

@@ -1,4 +1,7 @@
 module.exports = {
+  purge: [
+    "./source/**/*.erb"
+  ],
   theme: {
     colors: {
       white: "#fff",
